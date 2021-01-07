@@ -27,11 +27,14 @@
 .box2 {
 	/* order: 10; */
 	/* width: 200px; */
+	align-self: flex-start;
 	flex: 2;
 }
 
 .box4 {
 	/* order: -1; */
 	/* width: 10px; */
+	align-self: stretch;
 	flex: 2;
+	height: auto;
 }
