@@ -22,3 +22,11 @@
 	justify-content: center;
 	width: 500px;
 }
+
+.box2 {
+	order: 10;
+}
+
+.box4 {
+	order: -1;
+}
