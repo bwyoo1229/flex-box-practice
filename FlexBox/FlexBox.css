@@ -17,21 +17,21 @@
 	border-radius: 10px;
 	color: white;
 	display: flex;
-	flex-basis: 0;
+	/* flex-basis: 0; */
 	font: 32px sans-serif;
 	height: 100px;
 	justify-content: center;
-	flex-grow: 1;
+	flex: 1;
 }
 
 .box2 {
 	/* order: 10; */
 	/* width: 200px; */
-	flex-grow: 2;
+	flex: 2;
 }
 
 .box4 {
 	/* order: -1; */
 	/* width: 10px; */
-	flex-grow: 2;
+	flex: 2;
 }
