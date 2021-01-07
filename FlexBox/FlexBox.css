@@ -20,13 +20,16 @@
 	font: 32px sans-serif;
 	height: 100px;
 	justify-content: center;
-	width: 500px;
 }
 
 .box2 {
-	order: 10;
+	/* order: 10; */
+	width: 200px;
+	flex-grow: 1;
 }
 
 .box4 {
-	order: -1;
+	/* order: -1; */
+	width: 10px;
+	flex-grow: 1;
 }
