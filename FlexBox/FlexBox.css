@@ -1,18 +1,24 @@
 .container {
-	align-content: center;
+	/* align-content: center; */
+	align-items: center;
 	background: dodgerblue;
 	border: 2px dashed black;
 	border-radius: 10px;
 	box-sizing: border-box;
 	display: flex;
 	height: 500px;
-	flex-flow: wrap;
+	/* flex-flow: wrap; */
 }
 
 .box {
+	align-items: center;
 	background-color: tomato;
 	border: 2px dashed red;
 	border-radius: 10px;
+	color: white;
+	display: flex;
+	font: 32px sans-serif;
 	height: 100px;
+	justify-content: center;
 	width: 500px;
 }
