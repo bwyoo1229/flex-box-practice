@@ -16,7 +16,7 @@
 }
 
 .item:nth-child(1) {
-	grid-column: column1-start / 3;
+	grid-column: column1-start / span 3;
 }
 
 .item:nth-child(2) {
