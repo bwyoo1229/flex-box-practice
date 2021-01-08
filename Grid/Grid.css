@@ -2,7 +2,7 @@
 	display: grid;
 	gap: 15px 15px;
 	grid-auto-flow: dense;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: [column1-start] 1fr [column1-end] repeat(2, 1fr);
 	grid-template-rows: repeat(3, 100px);
 	width: 600px;
 }
@@ -16,7 +16,7 @@
 }
 
 .item:nth-child(1) {
-	grid-column: span 2;
+	grid-column: column1-start / 3;
 }
 
 .item:nth-child(2) {
